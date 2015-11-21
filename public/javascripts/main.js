@@ -40,7 +40,7 @@
       if (mainHeader.style.display == "none") {
         toggleHeaders();
       }
-      requestUrl = "http://www.omdbapi.com/?s=" + searchTerm;
+      requestUrl = "https://www.omdbapi.com/?s=" + searchTerm;
       // Function to execute after the AJAX request to the OMDB API is complete.
       xhr.onreadystatechange = function() {
         // Manipulating the response from the OMDB API
