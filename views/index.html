@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>coolMoviez</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  </head>
+  <body>
+
+    <div id="header">
+      <h1>coolMoviez</h1>
+    </div>
+
+
+    <div id="content">
+
+      <!-- Search Bar -->
+      <div id="main-content">
+        <form id="search-movies">
+          <input type="text" name="name" id="search-field" placeholder="e.g. Gladiator">
+          <input type="submit" name="search" id="search-button">
+        </form>
+      </div>
+
+      <div>
+
+        <div class="col" id="col1">
+          <div id="search-results">
+            <h2 id="main-header">Search Results (or view <span id="favorites">Favorites</span>)</h2>
+            <h2 id="favorite-header" style="display: none;">Favorite Movies</h2>
+            <ul id="movie-list"></ul>
+          </div>
+        </div>
+
+        <div class="col" id="col2">
+          <div id="current-movie">
+            <div id="name">
+              <h2 id="current-title"></h2>
+              <button name="favorite" id="favorite-button" style="visibility: hidden;">Favorite!</button>
+            </div>
+            <img id="current-poster"/>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+  <script type="text/javascript" src="javascripts/main.js"></script>
+</html>

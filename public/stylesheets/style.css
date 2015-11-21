@@ -1,0 +1,51 @@
+/* Common Styles */
+body {
+  margin: 30px 35px;
+}
+
+.col {
+  display: inline-block;
+  width: 45%;
+  min-height: 500px;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+ul .search-result:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+/* Left Column Styles */
+#col1 li {
+  margin: 3px 0px;
+}
+
+#col1 #favorites:hover {
+  cursor: pointer;
+  color: blue;
+}
+#search-field {
+  width: 300px;
+  height: 25px;
+  border: 1px solid grey;
+}
+
+#search-button {
+  width: 75px;
+  height: 2em;
+  font-size: 24px;
+}
+
+/* Right Column Styles */
+#col2 #current-title {
+  display: inline-block;
+}
+
+#favorite-button {
+  width: 75px;
+}
